@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" data-bs-ride="carousel">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Curso de Redes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tipos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item active" href="lan.html">LAN</a></li>
+                                    <li><a class="dropdown-item" href="man.html">MAN</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="wan.html">WAN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/portada1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </header>
+
+        <section>
+            <div class="row mt-5">
+                <aside class="col-sm-12 col-md-4">
+                    <div class="list-group">
+                        <a href="#redman" class="list-group-item list-group-item-action " aria-current="true">
+                            Red de área metropolitana
+                        </a>
+                        <a href="#fiabilidad" class="list-group-item list-group-item-action">Alta fiabilidad--</a>
+                        <a href="#ventajasydesventajas" class="list-group-item list-group-item-action">Ventajas y Desventajas</a>
+                    </div>
+                </aside>
+                <section class="col-sm-12 col-md-8">
+                    <!--red de area metropolitana-->
+                    <div class="row">
+                        <div id="redwan">
+                            <h1>¿Qué es una MAN (red de área metropolitana)?</h1>
+                            <small> <strong> 01 de Marzo 2024 por Jeferson Caleb Guerra Sorto </strong> </small> <br>
+                            <img src="img/man.png" alt="">
+                            <p>Una red de área metropolitana (MAN, Metropolitan Area Network) es una red de alta velocidad (banda ancha) que da cobertura en un área geográfica extensa, proporcionando capacidad de integración de múltiples servicios mediante la transmisión de datos, voz y vídeo, sobre medios de transmisión tales como fibra óptica y par trenzado (MAN BUCLE).</p>
+                            <p>La tecnología de pares de cobre se posiciona como la red más grande del mundo una excelente alternativa para la creación de redes metropolitanas, por su baja latencia (entre 1 y 50 ms), gran estabilidad y la carencia de interferencias radioeléctricas, las redes MAN BUCLE, ofrecen velocidades de 10 Mbit/s o 20 Mbit/s, sobre pares de cobre y 100 Mbit/s, 1 Gbit/s y 10 Gbit/s mediante fibra óptica.</p>
+                            <br><br><br>
+                        </div>
+                    </div>
+                    <!--/red de area metropolitana-->
+                    <!--alta fiabilidad-->
+                    <div class="row">
+                        <div id="fiabilidad--">
+                            <h1>Alta fiabilidad</h1>
+                            <img src="img/topologiasfisicas.png" class="img-fluid w-100" alt="...">
+                            <p>Fiabilidad referida a la tasa de error de la red mientras se encuentra en operación. Se entiende por tasa de error el número de bits erróneos que se transmiten por la red. En general la tasa de error para fibra óptica es menor que la del cable de cobre a igualdad de longitud. La tasa de error no detectada por los mecanismos de detección de errores es del orden de 10-20. Esta característica permite a las redes de área metropolitana trabajar en entornos donde los errores pueden resultar desastrosos como es el caso del control de tráfico aéreo.</p>
+                            <p>La creación de redes metropolitanas municipales permitiría a los ayuntamientos contar con una infraestructura de altas prestaciones al dotarlos con una red propia similar a la de los proveedores de servicios de Internet. De esta forma el ayuntamiento puede conectar nuevas sedes, usuarios remotos o videocámaras en la vía pública.</p>
+
+                    </div>
+                    <!--/alta fiabilidad-->
+                    <!--ventajas,desventajas-->
+                    <div class="row">
+                        <div id="ventajasydesventajas">
+                            <h1>Ventajas</h1>
+                            <p>Alto rendimiento: Gracias a su gran capacidad de ancho de banda y velocidad de transmisión de datos. Esto significa que los usuarios pueden transferir grandes cantidades de datos en poco tiempo, lo que mejora la eficiencia y productividad de la organización.</p>
+                            <p>Conectividad confiable: También ofrecen una conectividad confiable gracias a su infraestructura compartida y redundante. Los dispositivos y recursos de red están interconectados mediante cables de alta velocidad y tecnologías inalámbricas, lo que garantiza una transmisión de datos rápida y eficiente.</p>
+                            <p>Escalabilidad: Los administradores de red pueden agregar nuevos dispositivos y recursos a la red para aumentar su capacidad, lo que permite que la red se adapte a las necesidades de la organización.</p>
+                            <p>Ahorro de costos: Las redes MAN también pueden ayudar a las organizaciones a ahorrar costos a largo plazo. Al centralizar los recursos de red y compartirlos entre múltiples dispositivos y usuarios, las organizaciones pueden evitar la necesidad de adquirir múltiples recursos para cada usuario o dispositivo.</p><br>
+                            <h2>Desventajas</h2>
+                            <p>Costos: Requieren una infraestructura compleja y costosa que puede incluir cables de fibra óptica, dispositivos de red, routers, switches y software de gestión. Además, el costo de mantenimiento y actualización de la red también puede ser significativo.</p>
+                            <p>Problemas de seguridad: Debido a su tamaño y complejidad, estas redes pueden ser vulnerables a ataques malintencionados, como el robo de datos o la interrupción del servicio. Además, la gran cantidad de dispositivos conectados a la red puede hacer que sea difícil detectar y controlar el acceso no autorizado.</p>
+                            <p>Dependencia de proveedores: Estos proveedores pueden tener un gran control sobre la infraestructura de la red y los servicios que se ofrecen, lo que puede limitar la flexibilidad y la capacidad de la organización para adaptarse a las necesidades cambiantes.</p>
+                            <p>Dificultades en la implementación: La implementación de una red MAN puede ser un proceso complejo y exigente. Es necesario tener un conocimiento especializado en la planificación, diseño, implementación y mantenimiento de redes de gran escala.</p>
+                            <div>
+                        </div>
+                    </div>
+                    <!--/ventajas,desventajas-->
+
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div class="row bg-dark mt-5 mb-5 pt-3 pb-3">
+                <p class="text-center text-white">
+                    Todos los derechos reservados 2024. Diseñador Web Jeferson Caleb Guerra Sorto
+                </p>
+            </div>
+        </footer>
+
+    </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
